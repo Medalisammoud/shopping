@@ -1,0 +1,41 @@
+{
+  "name": "shopping-sport",
+  "version": "1.0.0",
+  "description": "E-Commerce Application MERN Stack Shopping Sport",
+  "main": "server.js",
+  "scripts": {
+    "back": "nodemon server.js",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\"",
+    "client-install":"npm install --perfex client",
+    "start": "node server.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --perfex client && npm run build --prefix client"
+  },
+  "keywords": [
+    "[",
+    "shopping",
+    "sport",
+    "football",
+    "online",
+    "shopping",
+    "store",
+    "product",
+    "ecommerce]"
+  ],
+  "author": "Mohamed Ali Sammoud",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2",
+    "react-rating-stars-component": "^2.2.0"
+  }
+}

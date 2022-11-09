@@ -1,0 +1,111 @@
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+
+
+/****************************************** CSS Payement.css *******************************************/
+
+.card3 {
+    border: none;
+    max-width: 450px;
+    border-radius: 15px;
+    margin: 15px 0 15px;
+    padding: 35px;
+    padding-bottom: 20px !important
+}
+
+.card3 .heading {
+    color: #C1C1C1;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.card3 img {
+    transform: translate(160px, -10px)
+}
+
+.card3 img:hover {
+    cursor: pointer
+}
+
+.text-warning {
+    font-size: 12px;
+    font-weight: 500;
+    color: #edb537 !important
+}
+
+.card3 #cno {
+    transform: translateY(-10px)
+}
+
+.card3 input {
+    border-bottom: 1.5px solid #E8E5D2 !important;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0
+}
+
+.form-group input:focus {
+    border: 0;
+    outline: 0
+}
+
+.col-sm-5 {
+    padding-left: 90px
+}
+
+.card3 .btn {
+    background: #F3A002 !important;
+    border: none;
+    border-radius: 30px
+}
+
+.card3 .btn:focus {
+    box-shadow: none
+}
